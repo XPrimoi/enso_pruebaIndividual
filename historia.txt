@@ -1,2 +1,5 @@
 git add .
+git commit -m "Creación de la estructura de repositorios y de la primera versión de control de cambios"
+git tag R1
+git branch Mejoras
 
