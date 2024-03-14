@@ -8,4 +8,7 @@ git switch main
 git merge Mejoras -m "Merge para obtener la versión 2 del control de cambios"
 git branch -d Mejoras
 rm Procesos/ControlDeCambios/propuestaDeMejoras.pdf
+git add .
+git commit -m "Versión 2 del archivo sobre Control de cambios"
+git tag R2
 
