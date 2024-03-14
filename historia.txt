@@ -11,4 +11,24 @@ rm Procesos/ControlDeCambios/propuestaDeMejoras.pdf
 git add .
 git commit -m "Versión 2 del archivo sobre Control de cambios"
 git tag R2
-
+git add .
+git commit -m "Versión 3 del archivo sobre Control de cambios"
+git checkout R2
+**Modifico archivo y añado plantillas**
+git tag R3
+git checkout Procesos/ControlDeCambios/DP_ControldeCambios_Grupo3\[2\].pdf
+git reset
+git add .
+git commit -m "Corrección de plantillas a añadir, realizada y versión 3 actualizada"
+git reset
+git checkout 7a0ddd1db2825ab6ffd1f1d8781e9830874a0ffa
+git push origin HEAD:main
+git push origin R1
+git push origin R2
+git push origin R3
+git switch main
+git pull
+git diff
+git add .
+git commit
+git push
