@@ -2,4 +2,10 @@ git add .
 git commit -m "Creación de la estructura de repositorios y de la primera versión de control de cambios"
 git tag R1
 git branch Mejoras
+git switch Mejoras
+**Debido a que no sabía cómo mover los archivos a una sola rama, realicé los cambios desde GitHub**
+git switch main
+git merge Mejoras -m "Merge para obtener la versión 2 del control de cambios"
+git branch -d Mejoras
+rm Procesos/ControlDeCambios/propuestaDeMejoras.pdf
 
